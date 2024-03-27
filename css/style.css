@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', serif;
+  list-style: none;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+.nav ul li {
+    align-items: center;
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #111;
+}
+
+body {
+	background-image:url('/img/home.webp');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 70%;
+	margin: 2%;
+}
+
+.header p {
+    text-align: center;
+	margin-top: 13px;
+	font-size: 1.5em;
+    color: #ffff;
+}
+
+.linktree ul li {
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.4rem 0.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+
+.linktree ul li a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+}
+
+.linktree ul li a svg {
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 4px 12px 4px 4px;;
+}
+
+.linktree ul li a span {
+    line-height: 1.4rem;
+}
+
+.linktree ul .instagram:hover {
+    background: #fd5949;
+}
+
+.linktree ul .youtube:hover {
+    background:#FF0000;
+}
+
+.linktree ul .github:hover {
+    background: #333;
+}
+
+.linktree ul .tiktok:hover {
+    background: #ff0050;
+}
+
+.linktree ul .twitter:hover {
+    background: #00acee;
+}
+
+.linktree ul .vote:hover {
+    background: #1bbb3e;
+}
+
+.linktree ul .website:hover {
+    background: #f7c00e;
+}
+
+.linktree ul .discord:hover {
+    background: #00acee;
+}
+
+.linktree ul .minecraft:hover {
+    background: #944209;
+}
+
+@media (max-width: 600px) {
+    #time {
+        display: none;
+    }
+}
