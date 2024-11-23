@@ -166,3 +166,11 @@ body {
         display: none;
     }
 }
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 2dvh;
+    text-align: center;
+    width: 100%;
+}
